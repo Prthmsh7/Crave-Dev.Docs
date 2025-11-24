@@ -7,10 +7,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <nav>
           <div><Link href="/">Crave Dev Docs</Link></div>
-          <div className="nav-links">
-            <Link href="/docs">Docs</Link>
-            <Link href="/blog">Blog</Link>
-          </div>
+         
         </nav>
         <main>{children}</main>
         <footer className="footer">
